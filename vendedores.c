@@ -120,7 +120,7 @@ int main() {
     fclose(archivo);
     fclose(archivoBajas);
     fclose(archivoCambiosSueldo);
-    rewind(archivoCambiosHoras);
+    fclose(archivoCambiosHoras);
 
     return 0;
 }
